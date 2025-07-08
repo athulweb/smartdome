@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>📄 Malayalam E-Newspapers | SmartDome</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #ffe6f7, #e0f7ff);
+      background-size: 300% 300%;
+      animation: bgMove 10s ease infinite;
+      color: #333;
+      margin: 0;
+      padding: 30px 20px;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    @keyframes bgMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .container {
+      background-color: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 600px;
+      text-align: center;
+      animation: fadeIn 1.5s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    h1 {
+      font-size: 2rem;
+      color: #6a11cb;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    .link-button {
+      display: block;
+      padding: 14px 20px;
+      margin: 10px 0;
+      font-size: 1rem;
+      font-weight: 600;
+      text-decoration: none;
+      color: white;
+      border-radius: 40px;
+      background: linear-gradient(270deg, #ff8a00, #e52e71, #9b00ff, #00c9ff);
+      background-size: 600% 600%;
+      animation: rainbow 6s ease infinite;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      transition: transform 0.2s;
+    }
+
+    .link-button:hover {
+      transform: scale(1.05);
+    }
+
+    @keyframes rainbow {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 20px;
+      }
+      h1 {
+        font-size: 1.5rem;
+      }
+      .link-button {
+        font-size: 0.95rem;
+        padding: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📄 Malayalam E-Newspapers</h1>
+    <p>Click below to explore popular Malayalam newspapers online in one tap.</p>
+
+    <a href="https://www.mathrubhumi.com/" target="_blank" class="link-button">Mathrubhumi</a>
+    <a href="https://www.manoramaonline.com/news.html" target="_blank" class="link-button">Malayala Manorama</a>
+    <a href="https://www.deshabhimani.com/" target="_blank" class="link-button">Deshabhimani</a>
+    <a href="https://www.madhyamam.com/" target="_blank" class="link-button">Madhyamam</a>
+    <a href="https://www.mangalam.com/" target="_blank" class="link-button">Mangalam</a>
+    <a href="https://keralakaumudi.com/" target="_blank" class="link-button">Kerala Kaumudi</a>
+    <a href="https://www.deepika.com/" target="_blank" class="link-button">Deepika</a>
+    <a href="https://www.chandrikadaily.com/" target="_blank" class="link-button">Chandrika</a>
+    <a href="https://www.janmabhumi.in/" target="_blank" class="link-button">Janmabhumi</a>
+    <a href="https://www.metrovaartha.com/" target="_blank" class="link-button">Metro Vaartha</a>
+  </div>
+</body>
+</html>
