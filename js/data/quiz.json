@@ -1,0 +1,27 @@
+[
+  {
+    "question": "What is the capital of Kerala?",
+    "options": ["Kochi", "Thiruvananthapuram", "Kozhikode", "Alappuzha"],
+    "answer": "Thiruvananthapuram"
+  },
+  {
+    "question": "Which river is also called Nila?",
+    "options": ["Periyar", "Bharathapuzha", "Pamba", "Chaliyar"],
+    "answer": "Bharathapuzha"
+  },
+  {
+    "question": "Who was the first Chief Minister of Kerala?",
+    "options": ["E. M. S. Namboodiripad", "A. K. Antony", "Oommen Chandy", "Pinarayi Vijayan"],
+    "answer": "E. M. S. Namboodiripad"
+  },
+  {
+    "question": "What is the official language of Kerala?",
+    "options": ["English", "Hindi", "Tamil", "Malayalam"],
+    "answer": "Malayalam"
+  },
+  {
+    "question": "Which dance form originated in Kerala?",
+    "options": ["Kathak", "Kathakali", "Bharatanatyam", "Kuchipudi"],
+    "answer": "Kathakali"
+  }
+]
